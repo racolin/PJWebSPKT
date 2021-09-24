@@ -1,0 +1,56 @@
+.nav-item {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    background-color: #198754;
+
+}
+
+.text-contact {
+    font-size: 14px;
+    color: cadetblue;
+}
+
+.carousel-indicators button {
+    width: 10px!important;
+    height: 10px!important;
+    margin: 0px 8px!important;
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    font-weight: 500;
+    padding: 25px;
+    top: 10%;
+    left: -13%;
+}
+
+.carousel-caption p {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    max-width: 75%;
+    padding: 15px;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width: 1300px) {
+    .carousel-caption h5 {
+        font-size: 38px;
+    }
+
+    .carousel-caption p {
+        font-size: 20px;
+    }
+  }
